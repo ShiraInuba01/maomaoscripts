@@ -1,2 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ShiraInuba01/maomaoscripts/refs/heads/main/final.txt")()
-loadstring(game:HttpGet("https://cdn.sourceb.in/bins/1LwKJAYQdD/0", true))()
+local s1 = game:HttpGet("https://raw.githubusercontent.com/ShiraInuba01/maomaoscripts/refs/heads/main/final.txt")
+local s2 = game:HttpGet("https://cdn.sourceb.in/bins/1LwKJAYQdD/0", true)
+loadstring(s1)()
+loadstring(s2)()
