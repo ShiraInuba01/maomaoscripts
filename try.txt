@@ -1,6 +1,6 @@
 local s1 = game:HttpGet("https://raw.githubusercontent.com/ShiraInuba01/maomaoscripts/refs/heads/main/final.txt")
 local s2 = game:HttpGet("https://api.rubis.app/v2/scrap/ZIB3E87fy3ZAISqR/raw", true)
-local s3 = game:HttpGet("https://pastefy.app/SWUamNYY/raw")
+local s3 = game:HttpGet("https://pastefy.app/WmMcWiOI/raw")
 
 -- Load s1 normally
 loadstring(s1)()
