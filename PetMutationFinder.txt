@@ -51,9 +51,7 @@ local function createButton(text, yPos, color)
 	btn.AutoButtonColor = false
 
 	Instance.new("UICorner", btn).CornerRadius = UDim.new(0, 6)
-	local stroke = Instance.new("UIStroke", btn)
-	stroke.Color = Color3.fromRGB(0, 0, 0)
-	stroke.Thickness = 1.2
+	-- No UIStroke!
 
 	btn.MouseEnter:Connect(function()
 		TweenService:Create(btn, TweenInfo.new(0.2), {BackgroundColor3 = color:Lerp(Color3.new(1,1,1), 0.2)}):Play()
