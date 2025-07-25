@@ -153,9 +153,11 @@ dupeSeedsBtn.RichText = true
 dupeSeedsBtn.AutoButtonColor = true
 
 dupeSeedsBtn.MouseButton1Click:Connect(function()
-    for i, v in pairs(player.Backpack:GetChildren()) do
-        if tostring(v):match("[X%d+]") and tostring(v):match("Seed") then
-            v.Name = tostring(v):gsub(tostring(v):match("(%d+)"), tonumber(tostring(v):match("(%d+)") or 1) * multiplier)
+    local character = player.Character
+    if character then
+        local tool = character:FindFirstChildOfClass("Tool")
+        if tool and tostring(tool):match("Seed") then
+            tool.Name = tostring(tool):gsub(tostring(tool):match("(%d+)"), tonumber(tostring(tool):match("(%d+)") or 1) * multiplier)
         end
     end
 end)
