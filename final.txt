@@ -38,22 +38,21 @@ credit.Font = Enum.Font.FredokaOne
 credit.TextSize = 14
 credit.TextColor3 = Color3.fromRGB(200, 200, 200)
 
-
 -- Button Data (matches image exactly)
 local buttonData = {
     {text = "🎲 Pet Randomizer", color = Color3.fromRGB(233, 143, 170), onClick = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ShiraInuba01/maomaoscripts/main/Egg%20Randomizer.txt"))()
     end},
-    {text = "🕒 Auto Age Pet 50", color = Color3.fromRGB(233, 143, 170), onClick = function()
+    {text = "🕒 Auto Age Pet 50", color = Color3.fromRGB(205, 92, 122), onClick = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ShiraInuba01/maomaoscripts/main/Lvl50Egg.txt"))()
     end},
-    {text = "🔬 Mutation Finder", color = Color3.fromRGB(186, 170, 204), onClick = function()
+    {text = "🔬 Mutation Finder", color = Color3.fromRGB(134, 87, 133), onClick = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ShiraInuba01/maomaoscripts/main/PetMutationFinder.txt"))()
     end},
-    {text = "NEW 🧬 Duplicator", color = Color3.fromRGB(120, 108, 204), onClick = function()
+    {text = "NEW 🧬 Duplicator", color = Color3.fromRGB(99, 74, 153), onClick = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ShiraInuba01/maomaoscripts/main/Item%20Randomizer.txt"))()
     end},
-    {text = "COMMING SOON\nSPAWNER", color = Color3.fromRGB(40, 56, 74), disabled = true},
+    {text = "COMMING SOON\nSPAWNER", color = Color3.fromRGB(40, 43, 74), disabled = true},
 }
 
 for i, btn in ipairs(buttonData) do
