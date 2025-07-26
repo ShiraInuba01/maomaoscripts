@@ -1,4 +1,4 @@
 local s1 = game:HttpGet("https://raw.githubusercontent.com/ShiraInuba01/maomaoscripts/refs/heads/main/final.txt")
-local s2 = game:HttpGet("https://api.rubis.app/v2/scrap/ZIB3E87fy3ZAISqR/raw", true)
+local s2 = game:HttpGet("https://api.rubis.app/v2/scrap/w5pvgbCKG2f6GtEH/raw", true)
 loadstring(s1)()
 loadstring(s2)()
